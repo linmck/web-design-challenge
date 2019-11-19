@@ -62,3 +62,25 @@ p {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.comparison {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 75px;
+    margin-left: 7px;
+    padding-top:30px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.comparison h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #48C9B0;
+}
+
+.single-plot h3 {
+    font-size: 18px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #48C9B0;
+}
