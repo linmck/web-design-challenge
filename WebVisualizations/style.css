@@ -26,6 +26,10 @@ nav {
     padding-right: 30px;
 }
 
+.pull-left {
+    padding-bottom: 20px;
+}
+
 .overview h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #48C9B0
@@ -34,10 +38,6 @@ nav {
 .combined-plots h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #48C9B0
-}
-
-.content-buffer {
-    padding-left: 20px;
 }
 
 .pull-left {
@@ -81,6 +81,37 @@ p {
 .single-plot h3 {
     font-size: 18px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom:-10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #48C9B0;
 }
+
+.single-plot a {
+    padding-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.feature-plot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.active-plot {
+    border:1px solid #48C9B0;
+}
+ 
+.table th {
+    color: #48C9B0;
+    font-size: 12px;
+}
+
+.table td {
+    color: #626567;
+    font-size: 12px;
+} 

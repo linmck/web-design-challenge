@@ -2,9 +2,12 @@
 <html lang="en_us">
     <head>
         <meta charset="UTF-8">
-        <title>Latitudinal Weather Changes</title>
+        <title>Comparison</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </head>
     <body>
 
@@ -20,14 +23,14 @@
                         Plots
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Max Temperature</a>
-                        <a class="dropdown-item" href="#">Humidity</a>
-                        <a class="dropdown-item" href="#">Wind Speed</a>
-                        <a class="dropdown-item" href="#">Cloudiness</a>
+                            <a class="dropdown-item" href="/max-temp">Max Temperature</a>
+                            <a class="dropdown-item" href="/humidity">Humidity</a>
+                            <a class="dropdown-item" href="/wind-speed">Wind Speed</a>
+                            <a class="dropdown-item" href="/cloudiness">Cloudiness</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Comparison</a>
+                        <a class="nav-link active" href="#">Comparison</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Data</a>
@@ -37,65 +40,65 @@
         </nav>
         <div class="container">
             <div class="row">
-                <div class="container col-lg-12 comparison">
+                <div class="container col-12 comparison">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <h2 class="content-buffer">Comparison: Latitude vs X</h2>
+                        <div class="col-12">
+                            <h2>Comparison: Latitude vs X</h2>
                             <hr>
                             <p>Click any plot to get an indepth analysis.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-12">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="row single-plot">
-                                        <div class="col-lg-12">
+                                        <div class="col-12">
                                             <h3>vs Max Temperature</h3>
                                         </div>
                                     </div>
                                     <div class="row single-plot">
-                                        <div class="col-lg-12">
-                                            <img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/max_temp-latitude.png" alt="Max Temp">
+                                        <div class="col-12">
+                                            <a href="#"><img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/max_temp-latitude.png" alt="Max Temp"></a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="row single-plot">
-                                        <div class="col-lg-12">
+                                        <div class="col-12">
                                             <h3>vs Humidity</h3>
                                         </div>
                                     </div>
                                     <div class="row single-plot">
-                                        <div class="col-lg-12">
-                                            <img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/humidity-latitude.png" alt="Humidity"> 
+                                        <div class="col-12">
+                                            <a href="#"><img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/humidity-latitude.png" alt="Humidity"></a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="row single-plot">
-                                        <div class="col-lg-12">
+                                        <div class="col-12">
                                             <h3>vs Cloudiness</h3>
                                         </div>
                                     </div>   
                                     <div class="row single-plot"> 
-                                        <div class="col-lg-12">           
-                                            <img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/cloudiness-latitude.png" alt="Cloudiness">
+                                        <div class="col-12">           
+                                            <a href="#"><img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/cloudiness-latitude.png" alt="Cloudiness"></a>
                                         </div>
                                     </div> 
                                 </div>
 
-                                <div class="col-lg-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="row single-plot">
-                                        <div class="col-lg-12">
+                                        <div class="col-12 ">
                                             <h3> vs Wind Speed</h3>
                                         </div>
                                     </div>
                                     <div class="row single-plot">
-                                        <div class="col-lg-12">
-                                            <img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/wind_speed-latitude.png" alt="Wind Speed">
+                                        <div class="col-12">
+                                            <a href="#"><img width=450 src="file:///Users/lindseymckenna/github_repos/web-design-challenge/WebVisualizations/assets/images/wind_speed-latitude.png" alt="Wind Speed"></a>
                                         </div>
                                     </div>
                                 </div>
